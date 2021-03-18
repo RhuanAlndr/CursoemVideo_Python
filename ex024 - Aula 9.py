@@ -1,0 +1,5 @@
+n = input('Digite o nome da sua cidade: ').strip()
+m = n.upper()
+s = m.split()
+pn = s[0].__contains__('SANTO')
+print(pn)

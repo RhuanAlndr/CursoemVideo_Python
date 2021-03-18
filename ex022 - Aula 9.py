@@ -1,0 +1,6 @@
+n = str(input('Diga seu nome completo: ')).strip()
+s = n.split()
+print('O nome em caixa alta: {}'.format(n.upper()))
+print('O nome em minúsculo: {}'.format(n.lower()))
+print('O número de letras é: {}'.format(len(n) - n.count(' ')))
+print('O número de letras que tem o primeiro nome: {}'.format(len(s[0])))
